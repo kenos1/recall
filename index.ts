@@ -100,7 +100,7 @@ Bun.serve({
                                 return Response.redirect("/")
 
 
-                        return Response.redirect("/" + avaliableCards[0])
+                        return Response.redirect("/study/" + stripPath(avaliableCards[0]))
                 },
                 "/reload": async req => {
                         storage = await readStorage(storagePath)
