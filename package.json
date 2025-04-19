@@ -1,0 +1,16 @@
+{
+  "name": "flashcards-thing",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
+    "marked": "^15.0.8"
+  }
+}

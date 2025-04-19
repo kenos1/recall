@@ -1,0 +1,65 @@
+main {
+        padding: 1em;
+        width: 100%;
+        max-width: 80ch;
+        margin: 1em auto;
+}
+
+#flashcards-list {
+        margin: 1em 0px;
+}
+
+#answer-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+}
+
+#answer-buttons a {
+        padding: 0.25em 1em;
+        text-decoration: none;
+        margin: 1em;
+        border: solid 2px;
+        opacity: 60%;
+        min-width: 15ch;
+        display: flex;
+        justify-content: center;
+}
+
+#answer-buttons a:hover {
+        opacity: 100%;
+}
+
+#open-answer {
+        text-decoration: none;
+        color: gray;
+}
+
+#answer-perfect {
+        border-color: green;
+        color: green;
+}
+
+#answer-good {
+        border-color: yellowgreen;
+        color: yellowgreen;
+}
+
+#answer-okay {
+        border-color: blue;
+        color: blue;
+}
+
+#answer-bad {
+        border-color: red;
+        color: red;
+}
+
+.done {
+        color: gray;
+}
+
+.hide-done .done {
+        display: none;
+}

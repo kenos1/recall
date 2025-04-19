@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Flashcards</title>
+                <link href="/style.css" rel="stylesheet">
+                <link
+                  rel="stylesheet"
+                  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+                >
+        </head>
+        <body>
+                <main>
+                        <h1>Flashcards</h1>
+                        <button id="hide-finished">Hide finished cards</button>
+                        <ul id="flashcards-list"></ul>
+                        <a href="/reload">Reload</a>
+                </main>
+                <script>
+                        document.getElementById("hide-finished").addEventListener("click", () => {
+                                document.getElementById("flashcards-list").classList.toggle("hide-done")
+                        })
+                </script>
+        </body>
+</html>
